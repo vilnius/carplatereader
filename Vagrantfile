@@ -16,5 +16,8 @@ Vagrant.configure(2) do |config|
     echo "deb http://deb.openalpr.com/master/ openalpr main" | sudo tee /etc/apt/sources.list.d/openalpr.list
     sudo apt-get update
     sudo apt-get install -y openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+
+    echo "install openalpr python2 bindings"
+    sudo apt-get install -y python-openalpr
   SHELL
 end
