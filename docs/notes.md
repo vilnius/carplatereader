@@ -18,11 +18,11 @@ Povilas/we could get access to this stream and use it to test our ideas, make MV
 network, add digital high quality cameras, streaming videos, but this will happen in couple of years.
 * There are around 600 buses, ~50 cameras inside, ~50 facing outside. No Internet connection
 inside buses, all data stored inside memory cards, used only when there are accidents/crimes.
-* As of now, GPS is processed every 30 seconds, not very reliable.
+* As of now, GPS coordinates of a bus are determined and sent every 30 seconds (?), not very accurate, dots are jumping: http://www.stops.lt/vilnius/gps.txt
 * Cameras in newer buses may have GPS coordinates inside video stream.
 * Cameras need to be certified if you don't want law problems.
 * There are separate accounts for m.ticket, m.parking, "vilniečio kortelė", other services... so each user
-has to create separate accounts with separate amounts - single account for everything would be great.
+has to create separate accounts - single account for everything would be great.
 * Extra application with a button for a driver is not a good idea - he must execute his duties, not do something unrelated
 * There are problems with getting sold ticket data from buses, so terabytes of video footage transfer is 
 out of the question, however if our application would catch "suspicious activities" and store these tiny video fragments
@@ -31,3 +31,4 @@ separately - it may be possible.
 ## New ideas
 * Citizens can subscribe and get SMS notifications when their bus(es) are being late (Alfredas)
 * Reverse engineer m.ticket and m.parking applications (source is missing), it would be possible to go open-source (Artūras)
+* *Somewhat related idea*: Buses are like blood inside the transportation body of Vilnius City, if buses are stopping and/or moving very slowly -- you know that there is a traffic jam there. This could be determined automatically and it can be very useful for car drivers!
