@@ -35,12 +35,4 @@ separately - it may be possible.
 ## New ideas
 * Citizens can subscribe and get SMS notifications when their bus(es) are being late (Alfredas)
   * they have pretty sweet infrastructure to track traffic and movement of public transport, so possibilities to improve public transport are great
-* Reverse engineer m.ticket and m.parking applications (source is missing), it would be possible to go open-source (Artūras)
-  * Basically the problem is that apps and whole server infrastructure was made by some shady private company. Due to some tricky contract "Susisiekimo paslaugos" cannot retrieve neither the source code, nor move service onto their own servers. Maintanence, new feature implementation cost a fortune;
-  * to retrieve the code, etc. government must sue the private company, but they do not want to do it as service would be shutdown, all in all it is complicated and I digress;
-  * m.parking is used by 60% of users, so if private company shuts it down - it's not good;
-  * ultimate plan to have "vilniečio kortelė", "m.ticket", "m.parking" as one system with different apps. Now all these 3 apps are completely separate, so, for example, user who has 30 eur in "vilniečio kortelė", can't use that money with "m.ticket";
-  * we should ask Artūras for app specifications;
-  * we asked to present this in a meetup, though they have many business trips, and hardly can make it;
-  * they would be very happy if we rewrite those applications, probably made them open-source and move the infrastructure into the hands of government.
 * *Somewhat related idea*: Buses are like blood inside the transportation body of Vilnius City, if buses are stopping and/or moving very slowly -- you know that there is a traffic jam there. This could be determined automatically and it can be very useful for car drivers! [Note: it's already done: http://stops.lt/vilnius/#vilnius/map/en and push 'show traffic' button on the right side, though it could be somewhat with better UI/UX, or even a separate app. Also accuraccy is unknown]
