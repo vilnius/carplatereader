@@ -1,9 +1,15 @@
 # Repository for _Car Plate Reader_
 
-### [Server API](docs/API.md)
-
 The scripts contained herein are meant to process the videos and images from public cameras (or
 cameras in public transport) to find A-lane or other statically identifiable violators.
+
+### Process and components
+
+![cpr-flow](https://raw.githubusercontent.com/vilnius/carplatereader/master/imgs/cpr-flow.png)
+<br/>
+<small>[Edit this diagram](https://creately.com/diagram/ilcpovkm1/De4TO3XFXQf4tI6g4q4blBNwA%3D)</small>
+
+### [Server API](docs/API.md)
 
 ## Install
 
